@@ -1,0 +1,61 @@
+#header-img img {
+    height: 100%;
+    width: 100%;
+}
+#carouselExampleIndicators img{
+      width:  auto;
+   
+  max-height: 450px;
+    
+}
+.dark-overly{
+    background: rgba(0,0,0,0.7);
+}
+
+body{
+    background: black;
+}
+.menu-item{
+    width: 25%;
+}
+.fa{
+    font-size: 2em;
+}
+.menu-item:hover {
+      opacity: 0.8;
+  cursor: pointer;
+
+    
+}
+.fa {
+    color: aliceblue;
+}
+@media (min-width:750){
+    
+div.menu{
+    position: sticky !important;
+    top: 0;
+}
+}
+@media (min-width:1200px){
+ .menu-item {
+    padding: 3em !important; }
+}
+@media (min-width :1000px){
+    .large-s-padding{
+        padding-bottom: 1.1em !important;
+    }
+}
+
+
+.carousel-item .img-fluid {
+  width:100%;
+}
+
+/* 
+anchors are inline so you need ot make them block to go full width
+*/
+.carousel-item a {
+  display: block;
+  width:100%;
+}
